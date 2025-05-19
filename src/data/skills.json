@@ -1,0 +1,30 @@
+[
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+        "skill": "C++"
+    },
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+        "skill": "Reactjs"
+    },
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+        "skill": "JavaScript"
+    },
+    {
+        "logo": "https://www.svgrepo.com/show/331760/sql-database-generic.svg",
+        "skill": "SQL"
+    },
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
+        "skill": "HTML"
+    },
+    {
+        "logo": "https://www.svgrepo.com/show/452185/css-3.svg",
+        "skill": "CSS"
+    },
+    {
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
+        "skill": "Tailwind CSS"
+    }
+]
