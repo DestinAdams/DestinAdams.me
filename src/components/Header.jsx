@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
 
                 <div className='flex flex-col sm:flex-row items-center gap-4 mt-6'>
                     <a
-                        href="/Destin_Adams_Resumepdf.pdf"
+                        href="/DestinAdams_Resume.pdf"
                         className='px-8 py-3 bg-green-500 text-white rounded-full hover:bg-green-600 hover:scale-105 transition font-medium shadow-md'
                     >
                         View Resume

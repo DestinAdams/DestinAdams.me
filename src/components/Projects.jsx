@@ -38,7 +38,6 @@ const Projects = () => {
                                 <h2 className='text-xl font-semibold mb-2 text-center xl:text-left'>{project.title}</h2>
                                 <p className='text-gray-700 dark:text-gray-300'>{project.description}</p>
                                 {/*Tech Stack*/}
-                                {/* Tech Stack */}
                                 <div className="mt-4">
                                     <div className="flex flex-wrap gap-2">
                                         {project.languages.map((lang, i) => (
@@ -51,20 +50,35 @@ const Projects = () => {
                                         ))}
                                     </div>
                                 </div>
-
+                                {/* Links */}
                                 <div className='text-center xl:text-left mt-4'>
                                     <div className="inline-flex space-x-4">
-                                        <button className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center">
-                                            <img src="/code.svg" alt="Code Icon" className="w-4 h-4 mr-2" />
-                                            <span>Code</span>
-                                        </button>
-
-                                        <button className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center" href={project.live}>
-                                            <img src="/live-icon.svg" alt="Live Icon" className="w-4 h-4 mr-2" />
-                                            <span>Live</span>
-                                        </button>
+                                        {project.github && (
+                                            <a
+                                                href={project.github}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center"
+                                            >
+                                                <img src="/code.svg" alt="Code Icon" className="w-4 h-4 mr-2" />
+                                                <span>Code</span>
+                                            </a>
+                                        )}
+                                        {project.live && (
+                                            <a
+                                                href={project.live}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center"
+                                            >
+                                                <img src="/live-icon.svg" alt="Live Icon" className="w-4 h-4 mr-2" />
+                                                <span>Live</span>
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
