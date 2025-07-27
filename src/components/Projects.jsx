@@ -11,7 +11,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div id="projects" className='p-6 min-h-screen'>
+        <div id="projects" className='p-6'>
             <div className="mb-12 text-center">
                 <h1 className="text-8xl font-bold">Projects</h1>
             </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                                                 rel="noopener noreferrer"
                                                 className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center"
                                             >
-                                                <img src="/code.svg" alt="Code Icon" className="w-4 h-4 mr-2" />
+
                                                 <span>Code</span>
                                             </a>
                                         )}
@@ -71,7 +71,7 @@ const Projects = () => {
                                                 rel="noopener noreferrer"
                                                 className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center"
                                             >
-                                                <img src="/live-icon.svg" alt="Live Icon" className="w-4 h-4 mr-2" />
+
                                                 <span>Live</span>
                                             </a>
                                         )}
@@ -86,7 +86,7 @@ const Projects = () => {
                 ))}
             </div>
         </div>
-    )
+    );
 }
 
 export default Projects

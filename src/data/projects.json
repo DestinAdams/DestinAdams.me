@@ -4,45 +4,38 @@
         "description": "An e-commerce platform for Oliver Smith Jeweler, featuring a custom Shopify theme. The site includes a product catalog. Built with Shopify Liquid, HTML/CSS, and JavaScript, it offers a seamless shopping experience across devices.",
         "thumbnail": "thumbnails/OSJ.png",
         "languages": [
-            "Shopify",
-            "Liquid",
+            "JavaScript",
             "SQL",
             "HTML/CSS",
-            "JavaScript"
+            "Shopify",
+            "Liquid"
         ],
         "github": "https://github.com/DestinAdams",
         "live": "https://oliversmithjeweler.com/"
     },
     {
-        "title": "WatchWeek Website App",
+        "title": "WatchWeek Website",
         "description": "An RSVP system designed specifically for WatchWeekAspen, allowing guests to securely sign in with Google and RSVP for curated events. The system includes real-time event tracking, admin controls for managing responses, and a seamless user interface optimized for mobile and desktop users.",
         "thumbnail": "thumbnails/WWA.jpeg",
         "languages": [
-            "Square Space",
-            "HTML/CSS"
-        ],
-        "github": "https://github.com/DestinAdams",
-        "live": "https://www.watchweekaspen.com/"
-    },
-    {
-        "title": "SAAS App",
-        "description": "A Software-as-a-Service application that integrates RSVP functionality and user authentication using Google Sign-In. Designed for scalability, this app offers dynamic event creation, secure data management, and a dashboard for organizers to monitor attendance and engagement metrics.",
-        "thumbnail": "thumbnails/WWA.jpeg",
-        "languages": [
             "JavaScript",
-            "SQL",
-            "Encrypted API"
+            "HTML/CSS",
+            "SquareSpace"
         ],
         "github": "https://github.com/DestinAdams",
         "live": "https://www.watchweekaspen.com/"
     },
     {
         "title": "Weekly Hour App for OSJ employees",
-        "description": "A web application designed for OSJ employees to track their weekly hours. This app features a user-friendly interface for logging hours, generating reports, and integrating with payroll systems. Built with React and Node.js, it ensures secure data handling and real-time updates.",
+        "description": "A web application designed for OSJ employees to track their weekly hours. This app features a user-friendly interface for logging hours, generating reports, and integrating with payroll systems. Built with React, NeonDB, Oauth, it ensures secure data handling and real-time updates.",
         "thumbnail": "thumbnails/WWA.jpeg",
         "languages": [
-            "React",
-            "Tailwind CSS"
+            "ReactJS",
+            "SQL",
+            "Next.JS",
+            "Tailwind CSS",
+            "Google OAuth",
+            "NeonDB"
         ],
         "github": "https://github.com/DestinAdams",
         "live": "/hourly"

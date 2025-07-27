@@ -10,11 +10,11 @@ const Skills = () => {
     }, [])
 
     return (
-        <div className='p-6'>
+        <div className='p-6' >
             <div className="mb-12 text-center">
                 <h1 className="text-8xl font-bold">Skills</h1>
             </div>
-            <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-7 gap-2 justify-center'>
+            <div className='grid grid-cols-3 sm:grid-cols-3 md:grid-cols-7 gap-2 justify-center xl:max-w-6xl xl:items-center mx-auto'>
                 {skills.map((skill, index) => (
                     <div
                         key={index}
