@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "image-size": "^2.0.2",
     "next": "^15.4.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-photo-album": "^3.1.0",
     "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
