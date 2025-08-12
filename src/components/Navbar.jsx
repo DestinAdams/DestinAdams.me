@@ -2,6 +2,9 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+// Importing lucide-react icons for menu and close icons
+// You can install lucide-react using npm or yarn
+// npm install lucide-react
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
