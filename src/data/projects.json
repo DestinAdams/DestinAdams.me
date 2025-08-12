@@ -15,7 +15,7 @@
     },
     {
         "title": "WatchWeek Website",
-        "description": "An RSVP system designed specifically for WatchWeekAspen, allowing guests to securely sign in with Google and RSVP for curated events. The system includes real-time event tracking, admin controls for managing responses, and a seamless user interface optimized for mobile and desktop users.",
+        "description": "WatchWeekAspen is a sleek, user-friendly platform built on Squarespace that brings the excitement of Watch Week Aspen right to your fingertips. Designed to showcase all curated events happening throughout the week, the site allows visitors to effortlessly browse event details and RSVP. Whether you're on desktop or mobile, the responsive interface ensures a seamless experience as you plan your participation in exclusive watch-related gatherings. With real-time RSVP tracking and easy-to-use admin controls, WatchWeekAspen keeps both guests and organizers connected and informed, making event attendance simple and enjoyable.",
         "thumbnail": "thumbnails/WWA.jpeg",
         "languages": [
             "JavaScript",
@@ -24,11 +24,12 @@
         ],
         "github": "https://github.com/DestinAdams",
         "live": "https://www.watchweekaspen.com/"
-    },
+    }
+    ,
     {
         "title": "Weekly Hour App for OSJ employees",
         "description": "A web application designed for OSJ employees to track their weekly hours. This app features a user-friendly interface for logging hours, generating reports, and integrating with payroll systems. Built with React, NeonDB, Oauth, it ensures secure data handling and real-time updates.",
-        "thumbnail": "thumbnails/WWA.jpeg",
+        "thumbnail": "thumbnails/clockin.png",
         "languages": [
             "ReactJS",
             "SQL",
@@ -38,6 +39,6 @@
             "NeonDB"
         ],
         "github": "https://github.com/DestinAdams",
-        "live": "/hourly"
+        "workInProgress": "true"
     }
 ]

@@ -75,6 +75,11 @@ const Projects = () => {
                                                 <span>Live</span>
                                             </a>
                                         )}
+                                        {project.workInProgress && (
+                                            <span className="bg-yellow-300 text-yellow-800 font-bold py-2 px-4 rounded inline-flex items-center">
+                                                Work in Progress
+                                            </span>
+                                        )}
                                     </div>
                                 </div>
 
