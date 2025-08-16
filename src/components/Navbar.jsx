@@ -19,12 +19,15 @@ const Navbar = () => {
 
     return (
         <header
-            className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${
-                isScrolled
-                    ? 'backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-md'
-                    : 'bg-transparent'
-            }`}
-        >
+    className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${
+        isOpen
+            ? 'bg-white/100 dark:bg-black/100 shadow-md' // fully opaque when menu is open
+            : isScrolled
+                ? 'backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-md'
+                : 'bg-transparent'
+    }`}
+>
+
             <nav className="flex justify-between items-center px-6 md:px-12 py-4">
                 <Link href="/" className="text-xl font-bold text-green-500">
                     Destin Adams
@@ -34,6 +37,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex items-center gap-6 lg:gap-8">
                     <li><Link href="/" className="hover:text-green-500 transition">Home</Link></li>
                     <li><Link href="/about" className="hover:text-green-500 transition">About</Link></li>
+                    {/* <li><Link href="/gallery">Gallery</Link></li> */}
                     <li>
                         <Link
                             href="/assets/DestinAdamsResume copy.pdf"

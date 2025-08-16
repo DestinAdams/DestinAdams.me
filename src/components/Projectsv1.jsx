@@ -18,34 +18,40 @@ const Projects = () => {
 
             <div className='grid gap-12 grid-col1 max-w-7xl mx-auto p-6'>
                 {projects.map((project, index) => (
-                    <div key={index} className="mx-auto max-w-md overflow-hidden rounded-xl  shadow-md md:max-w-7xl backdrop-blur bg-white/30 dark:bg-white/10 transition duration-300 ease-in-out hover:scale-102 hover:shadow-xl">
-  <div  className="md:flex">
-    {/* THUMBNAIL */}
-  <div className="md:shrink-0">
-      <img
-        className="h-48 w-full object-cover md:h-full md:w-98 "
-        src={project.thumbnail}
-        alt="Modern building architecture"
-      />
-    </div>
-    {/* TEXT */}
-    <div className="p-8">
-        {/* TITLE OF PROJECT */}
-      <div className="text-md font-semibold tracking-wide text-green-400 uppercase">{project.title}</div>
-      {/* DESCRIPTION */}
-      
-        <ScrollArea.Root className="h-32 overflow-hidden">
-            <ScrollArea.Viewport className="h-full pr-4"> 
-                <p className='text-gray-700 dark:text-gray-300'>
-                {project.description}
-                </p>
-                </ScrollArea.Viewport>
-                    <ScrollArea.Scrollbar orientation="vertical" className="bg-gray-300 dark:bg-gray-700 w-2 rounded">
-                    <ScrollArea.Thumb className="bg-gray-500 dark:bg-gray-400 rounded" />
-            </ScrollArea.Scrollbar>
-        </ScrollArea.Root>
-        {/* Tech Stack */}
-        <div className="mt-4">
+                    <div
+                        key={index}
+                        className='rounded-2xl shadow-lg h-full
+                        transition duration-300 ease-in-out hover:scale-102 hover:shadow-xl
+                        md:max-h-[400px] md:rounded-b-none'
+                    >
+                        <div className="flex flex-col h-full xl:flex-row-reverse">
+                            {/* Image */}
+                            <img
+                                src={project.thumbnail}
+                                alt={project.title}
+                                width={800}
+                                height={400}
+                                className='w-full xl:w-1/2 h-48 xl:h-auto object-cover rounded-t-2xl xl:rounded-r-2xl xl:rounded-tl-none '
+                            />
+
+                            {/* Info card */}
+                            <div className='w-full xl:w-1/2 bg-white/30 dark:bg-white/10 backdrop-blur-md rounded-b-2xl xl:rounded-l-2xl xl:rounded-br-none p-10 flex flex-col justify-between'>
+                                {/* Scrollable Title/Description */}
+                                <h2 className='text-xl font-semibold mb-2 text-center xl:text-left'>{project.title}</h2>
+                                <ScrollArea.Root className="h-32 overflow-hidden">
+                                    <ScrollArea.Viewport className="h-full pr-4">
+                                        
+                                        <p className='text-gray-700 dark:text-gray-300'>
+                                            {project.description}
+                                        </p>
+                                    </ScrollArea.Viewport>
+                                    <ScrollArea.Scrollbar orientation="vertical" className="bg-gray-300 dark:bg-gray-700 w-2 rounded">
+                                        <ScrollArea.Thumb className="bg-gray-500 dark:bg-gray-400 rounded" />
+                                    </ScrollArea.Scrollbar>
+                                </ScrollArea.Root>
+
+                                {/* Tech Stack */}
+                                <div className="mt-4">
                                     <div className="flex flex-wrap gap-2">
                                         {project.languages.map((lang, i) => (
                                             <span
@@ -57,8 +63,9 @@ const Projects = () => {
                                         ))}
                                     </div>
                                 </div>
+
                                 {/* Links */}
-                                <div className=' xl:text-left mt-4'>
+                                <div className='text-center xl:text-left mt-4'>
                                     <div className="inline-flex space-x-4">
                                         {project.github && (
                                             <a
@@ -87,10 +94,9 @@ const Projects = () => {
                                         )}
                                     </div>
                                 </div>
-    </div>
-    
-  </div>
-</div>
+                            </div>
+                        </div>
+                    </div>
                 ))}
             </div>
         </div>

@@ -15,7 +15,7 @@
     },
     {
         "title": "WatchWeek Website",
-        "description": "WatchWeekAspen is a sleek, user-friendly platform built on Squarespace that brings the excitement of Watch Week Aspen right to your fingertips. Designed to showcase all curated events happening throughout the week, the site allows visitors to effortlessly browse event details and RSVP. Whether you're on desktop or mobile, the responsive interface ensures a seamless experience as you plan your participation in exclusive watch-related gatherings. With real-time RSVP tracking and easy-to-use admin controls, WatchWeekAspen keeps both guests and organizers connected and informed, making event attendance simple and enjoyable.",
+        "description": "WatchWeekAspen is a sleek, user-friendly platform built on Squarespace that brings the excitement of Watch Week Aspen right to your fingertips. Designed to showcase all curated events happening throughout the week, the site allows visitors to effortlessly browse event details and RSVP. Whether you're on desktop or mobile, the responsive interface ensures a seamless experience as you plan your participation in exclusive watch-related gatherings.",
         "thumbnail": "thumbnails/WWA.jpeg",
         "languages": [
             "JavaScript",
