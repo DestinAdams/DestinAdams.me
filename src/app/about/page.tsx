@@ -3,8 +3,8 @@ export default function About() {
         <div className='w-11/12 max-w-4xl mx-auto min-h-screen flex flex-col justify-center items-center px-4 py-12'>
             <div className="text-center space-y-6">
                 <img src="assets/DestinAdamsCartoonProfilePicture.png" alt="Profile" className="rounded-full w-32 h-32 mx-auto mb-4" />
-                <h1 className="text-6xl md:text-8xl font-bold">About Me</h1>
-                <p className="text-lg md:text-2xl leading-relaxed text-gray-700 dark:text-gray-300 text-left">
+                <h1 className="text-6xl md:text-8xl font-bold text-white">About Me</h1>
+                <p className="text-lg md:text-2xl leading-relaxed text-white text-left">
                     I'm a software engineer with a passion for building things that live on the internet. Whether it's developing full-stack applications or experimenting with new technologies, I thrive on creating, solving problems, and continuously learning.
                     <br /><br />
                     I grew up in Cave Creek, Arizona, and now live in Tempe while pursuing a Bachelor's degree in Computer Systems Engineering at Arizona State University.

@@ -13,19 +13,19 @@ export default function OSJPage() {
   
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-6xl font-bold">Oliver Smith Jeweler</h1>
-            <p className="mt-4 text-xl">
+            <h1 className="text-6xl font-bold text-white">Oliver Smith Jeweler</h1>
+            <p className="mt-4 text-xl text-white">
               Website redesign, systems integration & product leadership
             </p>
-            <p className="mt-2 text-lg ">
+            <p className="mt-2 text-lg text-white">
               Serving <span className="font-semibold text-green-500">400,000+ users annually</span>
             </p>
           </div>
   
           {/* Overview */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Project Overview</h2>
-            <p className="text-lg leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-4 text-white">Project Overview</h2>
+            <p className="text-lg leading-relaxed text-white">
               At Oliver Smith Jeweler, I took full ownership of the company’s website and
               digital presence during my internship, acting as the de facto product team lead.
               When I joined, the website was a static Squarespace build with limited functionality. 
@@ -37,8 +37,8 @@ export default function OSJPage() {
   
           {/* Contributions */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">My Contributions</h2>
-            <ul className="list-disc pl-6 space-y-4 text-lg leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-4 text-white">My Contributions</h2>
+            <ul className="list-disc pl-6 space-y-4 text-lg leading-relaxed text-white">
               <li>
                 <strong>Product Ownership & Leadership:</strong> Served as the primary lead for 
                 the website project, overseeing technical execution, business alignment, and 
@@ -93,7 +93,7 @@ export default function OSJPage() {
   
           {/* Screenshots */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Screenshots</h2>
+            <h2 className="text-3xl font-semibold mb-4 text-white">Screenshots</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <img
                 src="thumbnails/OMEGA_SEAMASTER_LIVE_VIEW.jpg"
@@ -109,7 +109,7 @@ export default function OSJPage() {
           </div>
   
           {/* Tech Stack */}
-          <div className="max-w-4xl mb-12">
+          <div className="max-w-4xl mb-12 text-white">
             <h2 className="text-3xl font-semibold mb-4">Tech Stack</h2>
             <p className="text-lg ">
               Shopify • HTML • CSS • MySQL • JavaScript • Liquid • Edge
@@ -117,7 +117,7 @@ export default function OSJPage() {
           </div>
   
           {/* Reflection */}
-          <div className="max-w-4xl mb-12">
+          <div className="max-w-4xl mb-12 text-white">
             <h2 className="text-3xl font-semibold mb-4">Reflection</h2>
             <p className="text-lg leading-relaxed">
               My role at Oliver Smith Jeweler went far beyond coding — I learned how to own a 

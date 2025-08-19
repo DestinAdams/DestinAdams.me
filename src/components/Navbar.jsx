@@ -19,11 +19,11 @@ const Navbar = () => {
 
     return (
         <header
-    className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${
+    className={`fixed w-full text-white top-0 left-0 z-50 transition-all duration-300 ${
         isOpen
-            ? 'bg-white/100 dark:bg-black/100 shadow-md' // fully opaque when menu is open
+            ? 'bg-black/100 shadow-md' // fully opaque when menu is open
             : isScrolled
-                ? 'backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-md'
+                ? 'backdrop-blur-md bg-black/70 shadow-md'
                 : 'bg-transparent'
     }`}
 >
@@ -50,7 +50,7 @@ const Navbar = () => {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-gray-800 dark:text-gray-200"
+                    className="md:hidden text-gray-200"
                     onClick={() => setIsOpen(!isOpen)}
                     aria-label="Toggle menu"
                 >
@@ -61,7 +61,7 @@ const Navbar = () => {
             {/* Mobile Fullscreen Menu */}
 {isOpen && (
     <div
-        className="md:hidden fixed inset-0 backdrop-blur-md bg-white/70 dark:bg-black/70 shadow-md flex flex-col justify-center items-center gap-8 z-50"
+        className="md:hidden fixed inset-0 backdrop-blur-md bg-black/70 shadow-md flex flex-col justify-center items-center gap-8 z-50"
         onClick={() => setIsOpen(false)} // click anywhere closes menu
     >
         <ul

@@ -14,19 +14,19 @@ export default function WatchWeekPage() {
   
           {/* Hero Section */}
           <div className="text-center mb-12">
-            <h1 className="text-6xl font-bold">Watch Week Aspen</h1>
-            <p className="mt-4 text-xl">
+            <h1 className="text-6xl font-bold text-white">Watch Week Aspen</h1>
+            <p className="mt-4 text-xl text-white">
               Event website development, custom scripting & brand collaboration
             </p>
-            <p className="mt-2 text-lg ">
+            <p className="mt-2 text-lg text-white">
               Partnering with <span className="font-semibold text-green-500">luxury watch brands</span> for a premier showcase
             </p>
           </div>
   
           {/* Overview */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Project Overview</h2>
-            <p className="text-lg leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-4 text-white">Project Overview</h2>
+            <p className="text-lg leading-relaxed text-white">
               For Watch Week Aspen, I took on full ownership of the website build and digital 
               execution for this premier luxury event. While Squarespace provided the 
               foundation, my role extended far beyond basic setup. I developed custom 
@@ -38,8 +38,8 @@ export default function WatchWeekPage() {
   
           {/* Contributions */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">My Contributions</h2>
-            <ul className="list-disc pl-6 space-y-4 text-lg leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-4 text-white">My Contributions</h2>
+            <ul className="list-disc pl-6 space-y-4 text-lg leading-relaxed text-white">
               <li>
                 <strong>Squarespace Development & Ownership:</strong> Led the end-to-end 
                 creation and management of the Watch Week Aspen website, ensuring it met 
@@ -74,8 +74,8 @@ export default function WatchWeekPage() {
           </div>
   
           {/* Screenshots */}
-<div className="max-w-4xl mb-12">
-  <h2 className="text-3xl font-semibold mb-4">Screenshots</h2>
+<div className="max-w-4xl mb-12 ">
+  <h2 className="text-3xl font-semibold mb-4 text-white">Screenshots</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
     <img
       src="thumbnails/WWA_HOMEPAGE.jpg"
@@ -104,16 +104,16 @@ export default function WatchWeekPage() {
   
           {/* Tech Stack */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Tech Stack</h2>
-            <p className="text-lg ">
+            <h2 className="text-3xl font-semibold mb-4 text-white">Tech Stack</h2>
+            <p className="text-lg text-white">
               Squarespace • JavaScript • SEO Optimization • Client Collaboration
             </p>
           </div>
   
           {/* Reflection */}
           <div className="max-w-4xl mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Reflection</h2>
-            <p className="text-lg leading-relaxed">
+            <h2 className="text-3xl font-semibold mb-4 text-white">Reflection</h2>
+            <p className="text-lg leading-relaxed text-white">
               Watch Week Aspen was a fast-paced, event-driven project that required balancing 
               the limitations of a hosted platform with the expectations of luxury watchmakers. 
               By taking full ownership of the digital experience, I learned how to deliver 

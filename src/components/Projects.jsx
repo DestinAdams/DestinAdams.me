@@ -13,12 +13,12 @@ const Projects = () => {
     return (
         <div id="projects" className='p-6'>
             <div className="mb-12 text-center">
-                <h1 className="text-8xl font-bold">Projects</h1>
+                <h1 className="text-8xl font-bold text-white">Projects</h1>
             </div>
 
             <div className='grid gap-12 grid-col1 max-w-7xl mx-auto p-6'>
                 {projects.map((project, index) => (
-                    <div key={index} className="mx-auto max-w-md overflow-hidden rounded-xl  shadow-md md:max-w-7xl backdrop-blur bg-white/30 dark:bg-white/10 transition duration-300 ease-in-out hover:scale-102 hover:shadow-xl">
+                    <div key={index} className="mx-auto max-w-md overflow-hidden rounded-xl  shadow-md md:max-w-7xl backdrop-blur bg-white/10 transition duration-300 ease-in-out hover:scale-102 hover:shadow-xl">
   <div  className="md:flex">
     {/* THUMBNAIL */}
   <div className="md:shrink-0">
@@ -36,12 +36,12 @@ const Projects = () => {
       
         <ScrollArea.Root className="h-32 overflow-hidden">
             <ScrollArea.Viewport className="h-full pr-4"> 
-                <p className='text-gray-700 dark:text-gray-300'>
+                <p className='text-gray-300'>
                 {project.description}
                 </p>
                 </ScrollArea.Viewport>
-                    <ScrollArea.Scrollbar orientation="vertical" className="bg-gray-300 dark:bg-gray-700 w-2 rounded">
-                    <ScrollArea.Thumb className="bg-gray-500 dark:bg-gray-400 rounded" />
+                    <ScrollArea.Scrollbar orientation="vertical" className="bg-gray-700 w-2 rounded">
+                    <ScrollArea.Thumb className="bg-gray-400 rounded" />
             </ScrollArea.Scrollbar>
         </ScrollArea.Root>
         {/* Tech Stack */}
@@ -50,7 +50,7 @@ const Projects = () => {
                                         {project.languages.map((lang, i) => (
                                             <span
                                                 key={i}
-                                                className="bg-white/60 dark:bg-white/20 text-gray-900 dark:text-white text-xs font-medium px-3 py-1 rounded-full shadow-sm backdrop-blur-sm"
+                                                className=" bg-white/20 text-white text-xs font-medium px-3 py-1 rounded-full shadow-sm backdrop-blur-sm"
                                             >
                                                 {lang}
                                             </span>

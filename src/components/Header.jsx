@@ -10,13 +10,13 @@ const Header = () => {
                     alt="Cartoon portrait of Destin Adams"
                     className='rounded-full w-2/3 sm:w-1/3 m-5'
                 />
-                <h3 className='text-lg md:text-xl text-gray-700 dark:text-gray-300'>Hi, I'm</h3>
+                <h3 className='text-lg md:text-xltext-gray-300'>Hi, I'm</h3>
                 <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-green-400'>Destin Adams</h1>
-                <h2 className='text-xl sm:text-2xl lg:text-3xl text-gray-800 dark:text-gray-100 mt-2'>
+                <h2 className='text-xl sm:text-2xl lg:text-3xl text-gray-100 mt-2'>
                     Computer Systems Engineering Student @ Arizona State University
                 </h2>
 
-                <p className='max-w-2xl mt-4 text-gray-600 dark:text-gray-300 leading-relaxed'>
+                <p className='max-w-2xl mt-4 text-gray-300 leading-relaxed'>
                     I’m a <strong>software engineer</strong> passionate about building responsive web applications and solving real-world problems.
                     I thrive in collaborative environments and am actively seeking <strong>internship</strong> or <strong>co-op</strong> opportunities where I can contribute and grow.
                 </p>
