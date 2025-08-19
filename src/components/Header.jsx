@@ -6,7 +6,7 @@ const Header = () => {
         <header className='w-11/12 max-w-4xl text-center mx-auto h-screen flex flex-col justify-center items-center gap-6 px-4'>
             <div className='flex flex-col items-center'>
                 <img
-                    src="assets/DestinAdamsCartoonProfilePicture.png"
+                    src="thumbnails/DestinAdams.png"
                     alt="Cartoon portrait of Destin Adams"
                     className='rounded-full w-2/3 sm:w-1/3 m-5'
                 />
