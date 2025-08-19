@@ -96,7 +96,9 @@ export default function WatchWeekPage() {
       alt="Custom map screenshot"
       className="rounded-xl shadow-lg"
     />
+    
   </div>
+  <p className="text-center text-gray-400 p-4">(Map created by the Watch Week Aspen marketing team. Included here to show the scale of the events)</p>
 </div>
 
   
