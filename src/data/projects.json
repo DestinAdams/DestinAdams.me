@@ -10,7 +10,7 @@
             "Shopify",
             "Liquid"
         ],
-        "github": "https://github.com/DestinAdams",
+        "page": "/OSJ",
         "live": "https://oliversmithjeweler.com/"
     },
     {
@@ -22,7 +22,7 @@
             "HTML/CSS",
             "SquareSpace"
         ],
-        "github": "https://github.com/DestinAdams",
+        "page": "/WWA",
         "live": "https://www.watchweekaspen.com/"
     }
     ,
@@ -38,6 +38,7 @@
             "Google OAuth",
             "NeonDB"
         ],
+        
         "github": "https://github.com/DestinAdams",
         "workInProgress": "true"
     }

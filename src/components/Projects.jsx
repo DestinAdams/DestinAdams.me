@@ -60,6 +60,16 @@ const Projects = () => {
                                 {/* Links */}
                                 <div className=' xl:text-left mt-4'>
                                     <div className="inline-flex space-x-4">
+                                    {project.page && (
+                                            <a
+                                                href={project.page}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="bg-green-300 hover:bg-green-400 text-green-800 font-bold py-2 px-4 rounded inline-flex items-center"
+                                            >
+                                                <span>Learn More</span>
+                                            </a>
+                                        )}
                                         {project.github && (
                                             <a
                                                 href={project.github}
