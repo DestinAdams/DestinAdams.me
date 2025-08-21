@@ -27,7 +27,7 @@ export default function OSJPage() {
             <h2 className="text-3xl font-semibold mb-4 text-white">Project Overview</h2>
             <p className="text-lg leading-relaxed text-white">
               At Oliver Smith Jeweler, I took full ownership of the company’s website and
-              digital presence during my internship, acting as the de facto product team lead.
+              digital presence during my internship, acting as the project lead.
               When I joined, the website was a static Squarespace build with limited functionality. 
               Over the course of my role, I rebuilt it into a fully integrated Shopify-based platform, 
               redesigned the inventory intake process, and provided company-wide training to ensure 
@@ -40,7 +40,7 @@ export default function OSJPage() {
             <h2 className="text-3xl font-semibold mb-4 text-white">My Contributions</h2>
             <ul className="list-disc pl-6 space-y-4 text-lg leading-relaxed text-white">
               <li>
-                <strong>Product Ownership & Leadership:</strong> Served as the primary lead for 
+                <strong>Projuct Ownership & Leadership:</strong> Served as the primary lead for 
                 the website project, overseeing technical execution, business alignment, and 
                 stakeholder communication across the organization.
               </li>
@@ -60,9 +60,11 @@ export default function OSJPage() {
                 new business requirements set by ownership.
               </li>
               <li>
-                <strong>Integration and Customization:</strong> Installed and customized an integration 
-                between Edge and Shopify, enabling seamless product updates through an online service, 
-                improving operational efficiency and customer experience.
+              <strong>Integration and Customization:</strong> Installed and customized an integration 
+between <em>Edge</em> (a point-of-sale and inventory management system used in jewelry retail) 
+and Shopify. This ensured live synchronization of in-store sales and online inventory, 
+allowing the company to maintain accurate stock levels and streamline operations across 
+both physical and digital storefronts.
               </li>
               <li>
                 <strong>Staff Training & Rollout:</strong> Conducted full staff meetings to present the 
@@ -115,7 +117,19 @@ export default function OSJPage() {
               Shopify • HTML • CSS • MySQL • JavaScript • Liquid • Edge
             </p>
           </div>
-  
+          {/* Soft Skills */}
+<div className="max-w-4xl mb-12 text-white">
+  <h2 className="text-3xl font-semibold mb-4">Soft Skills & In-Person Experience</h2>
+  <p className="text-lg leading-relaxed">
+    Beyond my technical contributions, I actively engaged with staff and customers on the 
+    showroom floor. I collaborated with sales associates to understand their workflow needs, 
+    adapting technical solutions to fit real-world use cases. I also stepped in to support 
+    client-facing interactions and assist in product sales when needed, which strengthened 
+    my communication, adaptability, and customer service skills. These experiences allowed 
+    me to bridge the gap between technical development and the human side of retail.
+  </p>
+</div>
+
           {/* Reflection */}
           <div className="max-w-4xl mb-12 text-white">
             <h2 className="text-3xl font-semibold mb-4">Reflection</h2>

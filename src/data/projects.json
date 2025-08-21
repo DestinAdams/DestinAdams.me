@@ -27,8 +27,8 @@
     }
     ,
     {
-        "title": "Weekly Hour App for OSJ employees",
-        "description": "A web application designed for OSJ employees to track their weekly hours. This app features a user-friendly interface for logging hours, generating reports, and integrating with payroll systems. Built with React, NeonDB, Oauth, it ensures secure data handling and real-time updates.",
+        "title": "Weekly Hour App",
+        "description": "A web application designed for employees to track their weekly hours. This app features a user-friendly interface for logging hours, generating reports, and integrating with payroll systems. Built with React, NeonDB, Oauth, it ensures secure data handling and real-time updates.",
         "thumbnail": "thumbnails/clockin.png",
         "languages": [
             "ReactJS",

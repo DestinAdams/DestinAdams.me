@@ -66,7 +66,7 @@ export default function WatchWeekPage() {
                 maintained effectively before and during the event.
               </li>
               <li>
-                <strong>Product Leadership:</strong> Operated as the de facto product team 
+                <strong>Project Leadership:</strong> Operated as the project team 
                 lead, taking responsibility for aligning business, marketing, and technical 
                 needs into a single, functioning platform.
               </li>
